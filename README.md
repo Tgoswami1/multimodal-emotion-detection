@@ -13,15 +13,15 @@ Download HAAR-Cascade file from :
 https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml 
 
 #### Download the Dataset here:
-https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
+https://www.kaggle.com/datasets/msambare/fer2013
 #### First run main.py to create and train the model:
 ```
 python main.py
 ```
-#### Then run UI.py for implementing the face-emotion recognition interface:
+#### Then run GUI.py for implementing the face-emotion recognition interface:
 ```
-python UI.py
+python GUI.py
 ```
 This project has made use of FER (Facial Emotion Detection) dataset formed and compiled in the year 2013. The original FER2013 dataset in Kaggle is available as a single csv file, here. I had this converted into a dataset of images in the PNG format for training/testing.
 
